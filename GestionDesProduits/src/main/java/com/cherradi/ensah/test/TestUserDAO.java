@@ -35,8 +35,10 @@ public class TestUserDAO {
 //		userDAO.addUser(new User("aa", "bb", "cc", "dd"));
 //		userDAO.deleteUser((long) 3);
 		
-		user2.setLogin("tarik.boudaa@gmail.com");
-		userDAO.updateUser(user2);
+//		user2.setLogin("tarik.boudaa@gmail.com");
+//		userDAO.updateUser(user2);
+
+		
 		
 	}
 

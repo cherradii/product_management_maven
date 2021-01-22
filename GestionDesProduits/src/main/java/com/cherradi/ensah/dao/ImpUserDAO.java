@@ -82,7 +82,7 @@ public class ImpUserDAO implements IUserDAO{
 			stmt.setString(2, user.getPassword());
 			stmt.setString(3, user.getRole());
 			stmt.setString(4, user.getEnabled());
-			stmt.setLong(5, user.getIdUser());
+			stmt.setInt(5, user.getIdUser().intValue());
 			stmt.executeUpdate();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
